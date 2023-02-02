@@ -1,0 +1,1040 @@
+/*External single CSS propertities */
+body{
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	padding: 0%;
+	background-color: #f8f8f8;
+	font-family: Open Sans;
+	
+}
+/*header starts from here*/
+
+header{
+	width: 100%;
+	font-size: 17px;
+	list-style: none;
+	background: rgba(2, 37, 77,0.9);
+	float: left;
+
+}
+.logo{
+	width: 0%;
+	height: 0%;
+	padding-top:1%;
+	padding-left: 2%;
+	float: left;
+}
+.search-1{
+	float: right;
+	padding-top: 20px;
+	padding-right: 3%;
+}
+.search-1 p input [type='text']{
+	width: 200px;
+}
+.lang{
+	float: right;
+	color: rgb(2,37,77);
+}
+.search-1 lang [option]{
+	color: blue;
+}
+
+
+/*menubar properties start*/
+.menubar{
+	width: 100%;
+	height: 10%;
+	background: rgba(2, 37, 77,0.9);
+	margin-bottom: 0%;
+	padding:0%;
+	float: left;
+}
+/*menubar flex propertities*/
+.menubar ul{
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: 0%;
+	list-style: none;
+}
+.menubar ul li{
+	height: 10%;
+	text-align: center;
+	font-size: 16px;
+	flex: 0.5 auto;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	margin: 0%;
+}
+
+.menubar ul li a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+/*hover propertities for menubar*/
+.menubar ul li:hover{
+	background: rgba(2,37,77,0.4);
+	transition: background 0.25s ease;
+}
+.menubar ul li a:hover{
+	color: rgb(255,255,255);
+	transition: color 0.10s ease;
+}
+/*menubar dropdown CSS properties*/
+.menubar ul li ul 
+{
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 1%;
+	display: none;
+	background-color: rgba(2,37,77,0.4);
+	padding-right: 1%;
+	padding-bottom: 1%;
+}
+.menubar ul li ul li
+{
+	margin-top: 20%;
+	height: 5%;
+	font-size: 16px;
+}
+.menubar ul li:hover> ul
+{
+	display: block;
+}
+/*menubar dropdown ends*/
+/*menubar propertities end here*/
+/*section class propertities for main body part starts for index.html*/
+.container-1{
+	width: 100%;
+	height: auto;
+}
+/*flight booking form properties */
+.nav-slider img{
+	margin-top: 2px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+}
+.flight-booking{
+	color: white;
+	background-color: rgba(2,37,77,0.8);
+	height: 500px;
+	width: 48%;
+	margin-left: 25%;
+	margin-right: 15%;
+	margin-top: 5px;
+	padding-top: 0%;
+	padding-left: 5%;
+
+}
+/* flight booking propertities starts to give style*/
+.book-heading{
+	font-size: 35px;
+	letter-spacing: 0.4px;
+	font-style:italic;
+	text-align: center;
+	padding-top: 8px;
+}
+.book-heading span{
+	font-family: Arial;
+	font-weight: 800;
+	font-size: 20px;
+	padding: 4px;
+	font-style: italic;
+}
+.radio-square-checked{
+	position: absolute;
+}
+.flight-booking p{
+	padding:0%;
+}
+.flight-booking p input [placeholder='place,airport or city']{
+	font-style: italic;
+}
+/*flight booking propertities end here*/
+
+/*Destination image propertities starts here*/
+.destinationimg{
+	width: 100%;
+	margin: 0%;
+	padding-bottom: 1%;
+	float: left;
+	margin-top: 1%;
+}
+.destinationimg h2{
+	color: (2,37,77);
+	text-align: center;
+	transform-style: none;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.destinationimg span{
+	color: red;
+	font-weight: 900;
+	font-style: italic;
+	letter-spacing: 5px;
+	font-size: 50px;
+}
+/*destinationimg CSS properties ends*/
+.images{
+	width: 100%;
+	margin-left: 4%;
+	padding: 0%;
+}
+.destinationimg1{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+}
+.destinationimg1 img{
+	width: auto;
+	height: auto;
+	float: left;
+}
+.destinationimg1 p{
+	width: 400px;
+	margin:0;
+	margin-bottom: 1%;
+	float: left;
+}
+.destinationimg2{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+}
+.destinationimg2 img{
+	width: auto;
+	height: auto;
+	float: left;
+}
+.destinationimg2 p{
+	width: 400px;
+	margin:0;
+	margin-bottom: 1%;
+	float: left;
+}
+.destinationimg3{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+}
+.destinationimg3 img{
+	width: auto;
+	height: auto;
+	float: left;
+}
+.destinationimg3 p{
+	width: 400px;
+	margin:0;
+	margin-bottom: 1%;
+	float: left;
+}
+.info1{
+	text-align: center;
+}
+.info1 a{
+	text-decoration: none;
+	text-align: center;
+	color: rgb(2,37,77);
+}
+
+/*social-media container properties*/
+.social-media{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-color: rgba(2, 37, 77,0.8);
+	float: left;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+.social-media{
+	list-style: none;
+	float: left;
+}
+.social-media-connect{
+	width: 60%;
+	margin-left: 25%;
+}
+ .social-media-connect h4{
+	 text-align: left;
+	 color: white;
+	 padding-left: 10%;
+	 padding-top: 2%;
+	 float: left;
+	 padding-bottom: 2%;
+}
+.icon{
+	width: 40%;
+	float: left;
+	margin-top:0%;
+}
+.icon img{
+	padding-top: 18px;
+	float: left;
+	border-color: black;
+	padding-left: 4%;
+	padding-bottom: 4%;
+	
+}
+.icon img:hover{
+	transform: scale(1.2,1.2);
+	transition: transform 0.63s ease;
+}
+/* index.html propertities ends here*/
+
+/*About us page propertities starts (page 2)*/
+.container-3{
+	width: 100%;
+}
+.container-3-navimg img{
+	width:100%;
+	height: auto;
+}
+.narration{
+	padding-top: 5%;
+	padding-left: 16%;
+	color: rgba(2,37,77,1.00);
+	text-decoration: underline;
+}
+
+.about-us{
+	width: 80%;
+	height: auto;
+	float: left;
+	text-align: justify;
+	margin-right: 5%;
+	padding-left: 5%;
+	line-height: 1.5;
+	color: black;
+	padding-bottom: 5%;
+}
+.title{
+	color: rgb(2,37,77);
+	font-weight: 800;
+}
+.about-us p{
+	padding-left: 15%;
+}
+/*About us page propertities ends (page 2)*/
+
+/*Flight Arrival and Departure CSS properties starts here(page 3)*/
+.flight-status {
+	padding-left: 5%;
+}
+.track{
+	color: rgb(2,37,77);
+	padding-top: 4%;
+}
+.flight-status p{
+	padding-top: 1%;
+}
+.form2{
+	padding: 1% 40% 2% 5%;
+	margin: 0%;
+}
+/*This is for the styling of the fieldset tag.*/
+fieldset{
+	background: #c8c8c8;
+	border-radius: 15px;
+	box-sizing: border-box;
+	border: 2px #151515 solid;
+
+}
+/*This is for the styling of the legent tag and it's contents.*/
+legend{
+	font-size: 24px;
+	color: rgb(2,37,77);
+	margin: 0%;
+	padding: 0%;
+	text-align: center;
+	cursor: default;
+}
+/*This is to provide the label tag with 0% margin and 0% padding.*/
+label{
+	margin: 0%;
+	padding: 0%;
+}
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius and other border properties to the corresponding input type.*/
+/*(w3schools, 2017)*/
+.form2 input[type=text]{
+	width: 50%;
+	padding: 16px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius and other border properties to the corresponding input type.*/
+
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius and other border properties to the corresponding input type.*/
+.form2 textarea {
+	width: 50%;
+	padding: 16px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid rgb(255,255,255);
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.form2 input[type=datetime-local]{
+	height: 32px;
+}
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius, cursor style, font style and other border properties to the corresponding input type.*/
+.form2 input[type=submit]{
+	padding: 12px;
+	font-size: 1em;
+	margin: 8px 0px;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 28px;
+	background-color: rgb(2,37,77);
+	border: 1px solid rgb(255,255,255);
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: rgb(255,255,255);
+}
+/*This gives the transistion property to the submit button when we hover the cursor upon it.*/
+.form2 input[type=submit]:hover{
+	background-color: rgb(255,255,255);
+	color: rgb(2,37,77);
+}
+
+.arrival-depart{
+	width: 100%;
+	height:auto;
+	padding: 1%, 2%, 1%,2%;
+}
+.sidebar{
+	width: 26%;
+	height: 700px;
+	padding-left: 4%;
+	padding-top: 1%;
+	float: left;
+}
+.sidebar-1{
+	color: blue;
+	margin: 0%;
+	padding: 0%;
+
+}
+.to{
+	width: auto;
+	height: 50%;
+	float: left;
+	padding-top: 1%;
+	margin-top: 5%;
+	padding-left: 10%;
+	margin-bottom: 10%;
+}
+.to h2{
+	text-align: center;
+	color: red;
+}
+table{
+	width: auto;
+	padding-left: 10%;
+	text-align: center;
+	font-size: 18px;
+	background-color: #c8c8c8;
+}
+table, th, td {
+  border: 1px solid rgb(2,37,77);
+  border-collapse: collapse;
+}
+th{
+	font-style: bolder;
+	font-size: 22px;
+	color: rgb(2,37,77);
+	background:white;
+
+}
+/*flight informatiion propertities starts (page 3)*/
+
+/*flight information europe map properties(page 4)*/
+/*destination information with background image*/
+.destination-status{
+	background-image: url(../images/flight-information-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	height: 475px;
+	
+}
+.destination-status h1{
+	margin-top: 0%;
+	color: rgb(255,255,255);
+	padding-top: 8%;
+	padding-left: 14%;
+	text-transform: inherit;
+}
+.destination-status p{
+	color: rgb(255,255,255);
+	font-weight: 600;
+	font-size: 16px;
+	width: 450px;
+	padding-left: 13%;
+	line-height: 1.5;
+	text-align: justify;
+}
+/*destination map*/
+.information-map{
+	box-sizing: border-box;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.information-map img{
+	max-width: 100%;
+	max-height: 100%;
+	box-sizing: border-box;
+	padding-left: 15%;
+	
+}
+/*Flight information details ends here*/
+/*flight informatiion propertities starts (page 4)*/
+
+
+/*mobile app properties starts from here (page 5)*/
+   .mobile-phone{
+   	background-image: url(../images/country/mobile.jpg);
+   	background-repeat: no-repeat;
+   	background-size: cover;
+   	width: 100%;
+   	height: 475px;
+   	margin-bottom: 5%;
+   }
+   .mobile-phone1{
+   	padding-top: 10%;
+   	margin-top: 0%;
+   	color: white;
+   	padding-left: 5%;
+   	font-style: italic;
+   }
+   .mobile-phone-content2{
+   	padding-left: 10%;
+   }
+   .mobile3{
+   	color: rgb(2,37,77);
+   	font-size: 30px;
+   }
+   .mobile-phone-content2 p{
+   	width: 90%;
+   	color: rgb(2,37,77);
+   	line-height: 1.5;
+   }
+   .mobile2{
+   	background-image: url(../images/country/mobile.jpg);
+   	background-repeat: no-repeat;
+   	background-size: cover;
+   	width: 100%;
+   	height: 600px;
+   }
+ .mobile2 p{
+ 	color: rgb(255,255,255);
+ 	font-weight: 500;
+ 	font-size: 24px;
+ 	padding-left: 5%;
+ 	padding-top: 5%; 
+ 	padding-bottom: 1%;
+ }
+ .mobile2 ul{
+ 	color: rgb(255,255,255);
+ 	padding-left: 8%;
+ 	font-weight: 300;
+ 	line-height: 2;
+ }
+ .mobile-app{
+ 	margin: 5% 0% 4% 30%;
+ }
+ .download{
+ 	color: rgb(2,37,77);
+ 	padding-bottom: 2%;
+ }
+ .mobile-app img{
+ 	padding-left:1%;
+ }
+ .mobile-app img:hover{
+ 	transform: scale(1.1,1.1);
+ 	transition: transform 0.70 ease;
+ }
+/*mobile app properties starts from here (page 5)*/
+
+/*Explore page properties start (page 6)*/
+
+.container-expl-nav{
+	background-image: url(../images/flight-information-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 475px;
+	float: left;
+	margin-bottom: 4%;
+}
+.container-expl-nav h2{
+	margin-top: 0%;
+	color: rgb(255,255,255);
+	padding-top: 8%;
+	padding-left: 14%;
+	text-transform: inherit;
+}
+.container-expl-nav p{
+	color: rgb(255,255,255);
+	font-weight: 600;
+	font-size: 16px;
+	width: 450px;
+	padding-left: 14%;
+	line-height: 1.5;
+	text-align: justify;
+}
+.container-expl-image-search{
+	width: 96%;
+	float: left;
+	padding-left: 5%;
+	display: grid;
+	margin-top: 10%;
+}
+.images1{
+	width: 100%;
+	margin-left: 4%;
+	padding: 0%;
+}
+.destinationimg4{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+}
+.destinationimg5{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+}
+.destinationimg6{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+}
+.destinationimg4 img{
+	width: auto;
+	margin: 0%;
+	float: left;
+	height: auto;
+	padding-left: 3%;
+
+}
+.destinationimg5 img{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+
+}
+.destinationimg6 img{
+	width: auto;
+	height: auto;
+	float: left;
+	padding-left: 3%;
+}
+.info2 a{
+	text-decoration: none;
+	text-align: center;
+	color: rgb(2,37,77);
+}
+.info2{
+	text-align: center;
+}
+
+/*Explore page properties Ends (page 6)*/
+
+/*Check-in properties (Page 7)*/
+.check-in-1{
+	width: 100%;
+	height: auto;
+	margin:0%;
+	padding-left: 0%;
+	color: rgba(2,37,77,1.00);
+}
+.checkin-1-para{
+	background-image: url(../images/country/plane.jpg);
+	width: 100%;
+	height: 475px;
+	background-position: cover;
+	background-repeat: no-repeat;
+	margin-top: 0%;
+}
+.checkin-1-para p{
+	text-align: center;
+	height: auto;
+	padding: 1%;
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 0%;
+	padding-top: 15%;
+	width: 60%;
+
+}
+
+.get-ready{
+	width: 80%;
+	font-size: 18px;
+	margin:0% 10%;
+
+}
+.document{
+	width: 80%;
+	font-size: 18px;
+	margin: 0% 10%;	
+}
+.download12{
+	width: 100%;
+	text-align: left;
+
+}
+.checkinairport{
+	line-height: 2;
+	font-weight: 700;
+	width: 80%;
+	margin: 0% 10%;
+
+}
+.baggage-allowance{
+	width: 80%;
+	font-size: 18px;
+	margin: 0% 10%;
+}
+.baggage-allowance p{
+	line-height: 2;
+	text-align: justify;
+}
+.baggage-allowance1{
+	margin: 5% 0% 5% 10%;
+	padding:0%;
+	text-align: center;
+}
+
+.form1{
+	width: 40%;
+	height:auto;
+	float: left;
+	background-color: #c8c8c8;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+.form1a{
+	color: rgb(255,255,255);
+	background: rgba(2,37,77,0.7);
+}
+
+.form1b{
+	color: rgb(255,255,255);
+	background: rgba(2,37,77,0.7);
+}
+.form1a1{
+	font-weight: 800;
+	font-size: 18px;
+}
+.infant{
+	background:rgba(2,37,77,0.6);
+	color: rgb(255,255,255);
+}
+/*Check-in properties (Page 7)*/
+/*FAQ/Help page properties start from here (page 8)*/
+.help{
+	width: 100%;
+	height: 30%;
+	background-color: rgba(2,37,77,0.8);
+
+	margin: 0%;
+}
+.help h2{
+	margin: 0%;
+	text-align: center;
+	color: rgb(255,255,255);
+	padding-top: 9%;
+	padding-bottom: 2%;
+}
+.question{
+	width: 80%;
+	font-size: 18px;
+	margin: 1% 13%;
+	padding: 0%;
+}
+.mobile{
+	width: 65%;
+	float: left;
+	margin-left: 10%;
+	background-color: #c8c8c8;
+	padding-left: 5%;
+}
+.Flight-Booking1{
+	width: 65%;
+	float: left;
+	margin-left: 10%;
+	background-color: #c8c8c8;
+	padding-left: 5%;
+}
+.Baggage{
+	width: 65%;
+	float: left;
+	margin-left: 10%;
+	background-color: #c8c8c8;
+	padding-left: 5%;
+
+}
+.checkin1{
+	width: 65%;
+	float: left;
+	margin-left: 10%;
+	background-color: #c8c8c8;
+	padding-left: 5%;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+}
+.mobileq{
+	color: rgb(255,255,255);
+}
+.a{
+	text-decoration: none;
+
+}
+.mobile1{
+	color: black;
+
+}
+.mobile1:hover{
+	color: white;
+	transition: color 0.05s ease;
+}
+.form3{
+	width: 50%;
+	padding: 5% 18%;
+	margin-left: 5%;
+}
+/*This is for the styling of the fieldset tag.*/
+/*This is for the styling of the fieldset tag.*/
+.enquiry{
+	background: #c8c8c8;
+	border-radius: 15px;
+	box-sizing: border-box;
+	border: 2px #151515 solid;
+
+}
+/*This is for the styling of the legent tag and it's contents.*/
+.legen{
+	font-size: 24px;
+	color: rgb(2,37,77);
+	margin: 0%;
+	padding: 0%;
+	text-align: center;
+	cursor: default;
+}
+/*This is to provide the label tag with 0% margin and 0% padding.*/
+.name{
+	margin: 0%;
+	padding: 0%;
+}
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius and other border properties to the corresponding input type.*/
+/*(w3schools, 2017)*/
+.form3 input[type=text]{
+	width: 97%;
+	padding: 16px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	box-sizing: border-box;
+}*/
+
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius and other border properties to the corresponding input type.*/
+
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius and other border properties to the corresponding input type.*/
+.form3 textarea {
+	width: 97%;
+	padding: 16px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid rgb(255,255,255);
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+input[type=email]{
+	width: 97%;
+	padding: 16px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+textarea {
+	width: 97%;
+	padding: 16px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid #c8c8c8;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized),
+border radius, cursor style, font style and other border properties to the corresponding input type.*/
+.form3 input[type=submit]{
+	padding: 12px;
+	font-size: 1em;
+	margin: 8px 0px;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 28px;
+	background-color: rgb(2,37,77);
+	border: 1px solid rgb(255,255,255);
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: rgb(255,255,255);
+}
+/*This gives the transistion property to the submit button when we hover the cursor upon it.*/
+..form3 input[type=submit]:hover{
+	background-color: rgb(255,255,255);
+	color: rgb(2,37,77);
+}
+/*FAQ/Help page properties endshere (page 8)*/
+/*Footer properties for all pages*/
+/*footer class properties for all html*/
+.container-2{
+	width: 100%;
+	background: rgba(2, 37, 77,0.9);
+	float: left;
+  	margin-top: 0.5%;
+  	list-style: none;
+}
+.privacy{
+	width:33%;
+	height:300px;
+	float: left;
+	background-color: rgba(2, 37, 77,0.9);
+	color: white;
+	text-decoration: none;
+}
+.privacy h4{
+	text-align: center;
+}
+.privacy p{
+	padding-left: 8%;
+}
+.privacy a{
+	text-decoration: none;
+	color: white;
+}
+
+.contact-info{
+	width: 33%;
+	height: 300px;
+	background-color: rgba(2, 37, 77,0.9);
+	float: left;
+	list-style: none;
+	color: white;
+}
+.contact-info h4{
+	text-align: center;
+}
+.contact-info p{
+	font-size: 15px;
+	padding-left: 20px;
+}
+.contact-info ul li{
+	list-style: none;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*newsletter elements propertities*/
+.newsletter{
+	width: 34%;
+	height: 300px;
+	background: rgba(2, 37, 77,0.9);
+	/*background: #0000ff;*/
+	float: left;
+}
+.newsletter h4{
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+.newsletter p{
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+/* style for newsletter*/
+.newsletter p input[type='text']{
+	padding: 0.3%;
+	width: 75%;
+	height: 20px;
+	font-style: italic;
+	font-size: 14px;
+}
+.newsletter p input[type='email']{
+	width: 75%;
+	height: 20px;
+	font-style: italic;
+	font-size: 14px;
+}
+.newsletter input[type='submit']{
+	width: 90px;
+	height: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+.newsletter input[type='submit']:hover{
+	color: white;
+	background: rgb(2,37,77);
+	transition: background 0.25s ease;
+}
+.newsletter input[value='Subscribe']:hover{
+	transform: scale(1.1,1.1);
+	transition: transform 0.63s ease;
+}
+
+/*copyright footer propertities*/
+footer{
+	font-size: 17px;
+	padding: 0% 0% 1% 0%;
+	color: #ffffff;
+	float: left;
+	background: rgba(2, 37, 77,0.9);
+	text-align: center;
+	width: 100%;
+	height: 40px;
+}
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 500 pixels.*/
+@media all and (max-width: 800px){
+	/*Provides the mentioned padding and margin values to the division:form*/
+	.form2{
+		margin: 1%;
+		padding: 2%;
+	}
+}
+@media all and (max-width:500px){
+	.to, table{
+		margin:1%;
+		padding:2%;
+	}
+}
+/*This gives the webpage a responsive design.*/
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 800 pixels.*/
